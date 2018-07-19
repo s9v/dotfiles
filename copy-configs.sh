@@ -10,3 +10,14 @@ cp ~/.Xresources X/.Xresources
 # vim
 mkdir -p vim
 cp ~/.vimrc vim/.vimrc
+
+echo
+echo "running \`git statusbb\`"
+echo "========================"
+git status
+echo "========================"
+read -p "Continue? [enter/ctrl+c]: "
+
+git add .
+git commit -m "backup configs :d (autogen'd message)"
+git push
