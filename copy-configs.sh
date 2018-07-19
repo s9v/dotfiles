@@ -11,8 +11,7 @@ cp ~/.Xresources X/.Xresources
 mkdir -p vim
 cp ~/.vimrc vim/.vimrc
 
-echo
-echo "running \`git statusbb\`"
+echo "Running \`git status\`..."
 echo "========================"
 git status
 echo "========================"
