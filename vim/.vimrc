@@ -4,4 +4,5 @@ set tabstop=8 softtabstop=0 autoindent expandtab shiftwidth=4 smarttab
 " Show line numbers
 set number
 
+" Set color scheme
 ""colorscheme slate
