@@ -14,3 +14,13 @@ set number
 
 " Save with ESC ESC
 map <Esc><Esc> :w<CR>
+
+" == by @romainl (https://superuser.com/a/321726/423302) ==
+
+" Delete without yanking
+nnoremap <leader>d "_d
+vnoremap <leader>d "_d
+
+" Replace currently selected text with default register
+" without yanking it
+vnoremap <leader>p "_dP
