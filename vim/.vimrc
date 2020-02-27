@@ -24,3 +24,8 @@ vnoremap <leader>d "_d
 " Replace currently selected text with default register
 " without yanking it
 vnoremap <leader>p "_dP
+
+" Hijack NERDTree into split explorer
+" (:Sex with NERDTree? ( ͡° ͜ʖ ͡°))
+" See: http://vimcasts.org/blog/2013/01/oil-and-vinegar-split-windows-and-project-drawer/
+let NERDTreeHijackNetrw=1
