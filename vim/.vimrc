@@ -29,3 +29,7 @@ vnoremap <leader>p "_dP
 " (:Sex with NERDTree? ( ͡° ͜ʖ ͡°))
 " See: http://vimcasts.org/blog/2013/01/oil-and-vinegar-split-windows-and-project-drawer/
 let NERDTreeHijackNetrw=1
+
+" See: Why doesn't the backspace key work in insert mode?
+" Link: https://vi.stackexchange.com/a/2163
+set backspace=indent,eol,start
