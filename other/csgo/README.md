@@ -2,6 +2,7 @@
 
 Location of config files is:
 * `<STEAM LIBRARY>\steamapps\common\Counter-Strike Global Offensive\csgo\cfg`
+  * `C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg`
 * ~~`<STEAM>\userdata\<YOURID>\730\local\cfg`~~
 
 # Autoexec
